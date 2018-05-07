@@ -33,16 +33,32 @@
 
 	<div id="imageBox">
 
-		<div class="navButton" id="left"> 
-			<img class="arrowButton" src="images/right_arrow.png">
+		<div class="navButton" id="right"> 
+			<img class="arrowButton" src="images/right_arrow.png" onclick="doRightClick()"> 
 		</div>
 
 		<div id="picWindow"> 
-			<img class = "pic0" src="images/marchand4.jpg" width="100%" height="100%">
+			<img id="image0" src="images/marchand4.jpg" width="100%" height="100%">
+			<img id = "image1" src="images/hug.jpg" width="100%" height="100%">
+			<img id = "image2" src="images/marchand0.jpg" width="100%" height="100%">
+			<img id = "image3" src="images/marchand1.jpg" width="100%" height="100%">
+			<img id = "image4" src="images/marchand2.jpg" width="100%" height="100%">
+			<img id = "image5" src="images/marchand3.jpg" width="100%" height="100%">
+			<img id = "image6" src="images/marchand5.jpg" width="100%" height="100%">
+			<img id = "image7" src="images/marchand6.jpg" width="100%" height="100%">
+			<img id = "image8" src="images/marchand7.jpg" width="100%" height="100%">
+			<img id = "image9" src="images/marchand8.jpg" width="100%" height="100%">
+			<img id = "image10" src="images/marchand9.jpg" width="100%" height="100%">
+			<img id = "image11" src="images/marchand10.jpg" width="100%" height="100%">
+		
+
 		</div>
 
-		<div class="navButton" id="right"> 
-			<img class="arrowButton" src="images/left_arrow.png">
+
+		<div class="navButton" id="left"> 
+			<img class="arrowButton" src="images/left_arrow.png" onclick="doLeftClick()">
+
+
 
 		</div>
 
@@ -50,7 +66,19 @@
 
 	</div>
 	
+<div id="audioBox">
+			
+			<audio controls autoplay>
 
+			<source src="audio/ShippingUpToBoston.ogg" type="audio/ogg">
+
+			<source src="audio/ShippingUpToBoston.mp3" type="audio/mpeg">
+				
+
+
+			</audio>
+
+ 		</div>
 
 
 
