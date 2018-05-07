@@ -43,16 +43,35 @@ body {
 }
 
 #leftButton {
-	float: right;
-}
-
-#rightButton{
 	float: left;
 }
 
+#rightButton{
+	float: right;
+}
+
+
+
 .arrowButton{
-	width: 60%;
+
+	
+	width: 55%;
 	margin-top: 70%;
+	
+}
+
+
+.arrowButton:hover{
+
+
+	width: 55%;
+	margin-top: 70%;
+	opacity: 0.75;
+}
+
+#audioBox{
+
+	text-align: center;
 }
 
 
